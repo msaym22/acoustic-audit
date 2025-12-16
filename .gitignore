@@ -1,0 +1,17 @@
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python Junk
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Ignore Flutter Junk 
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/android/.gradle
+app/android/local.properties

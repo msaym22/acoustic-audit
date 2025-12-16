@@ -1,0 +1,26 @@
+name: quran_ai_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Capture Audio
+  sound_stream: ^0.3.0
+  # Talk to Python Server
+  web_socket_channel: ^2.4.0
+  # Permissions (Mic)
+  permission_handler: ^10.2.0
+  # Quran Text
+  quran: ^1.2.3
+  # Play Beeps
+  audioplayers: ^5.1.0
+  # Icons
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true
